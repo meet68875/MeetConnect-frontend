@@ -4,48 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>MeetConnect - README</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-      line-height: 1.6;
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-      color: #333;
-      background: #f9f9f9;
-    }
-    h1, h2, h3 {
-      color: #1e40af;
-      margin-top: 2rem;
-    }
-    code {
-      background-color: #e5e7eb;
-      padding: 0.2em 0.4em;
-      border-radius: 4px;
-      font-family: monospace;
-      font-size: 0.95em;
-    }
-    pre {
-      background-color: #1e293b;
-      color: #f8fafc;
-      padding: 1rem;
-      border-radius: 6px;
-      overflow-x: auto;
-      margin-top: 0.5rem;
-      margin-bottom: 1.5rem;
-    }
-    ul {
-      margin-top: 0.5rem;
-    }
-    a {
-      color: #2563eb;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
 </head>
 <body>
   <h1>MeetConnect - Project Description</h1>
