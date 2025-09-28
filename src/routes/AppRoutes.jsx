@@ -84,8 +84,8 @@ export default function AppRoutes() {
               </ProtectedRoute>
             }
           />
-        </Routes>
          <Route path="*" element={<NotFound />} />
+        </Routes>
       </LoadingProvider>
     </BrowserRouter>
   );
