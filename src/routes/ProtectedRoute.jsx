@@ -1,15 +1,12 @@
-// src/components/ProtectedRoute.jsx
 import { Navigate } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 
 const ProtectedRoute = ({ children }) => {
-  const { isAuthenticated } = useAuth(); // Assume this hook returns the authentication status
-  console.log("isAuthenticated",isAuthenticated)
-  if (!isAuthenticated) {
-    return <Navigate to="/" replace />;
-  }
+  const { isAuthenticated, loading } = useAuth();
 
-  return children;
+  if (loading) return <div>Loading...</div>;
+
+  return isAuthenticated ? children : <Navigate to="/" replace />;
 };
 
 export default ProtectedRoute;

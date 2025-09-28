@@ -10,6 +10,7 @@ import { LoadingProvider } from "../contexts/loadingContext";
 import MyInterviews from "../pages/MyInterviews";
 import AboutPage from "../pages/AboutPage";
 import PracticeResourcePage from "../components/PracticeResourcePage";
+import NotFound from "../pages/NotFound";
 
 export default function AppRoutes() {
   return (
@@ -84,6 +85,7 @@ export default function AppRoutes() {
             }
           />
         </Routes>
+         <Route path="*" element={<NotFound />} />
       </LoadingProvider>
     </BrowserRouter>
   );
