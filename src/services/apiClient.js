@@ -3,7 +3,7 @@ import axios from "axios";
 import { toast } from "react-toastify"; // Import toast for notifications
 
 const apiClient = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://meetconnect-backend.onrender.com/api",
   headers: {
     "Content-Type": "application/json",
   },
